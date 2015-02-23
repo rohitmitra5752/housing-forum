@@ -1,6 +1,7 @@
 sidebar {
     max-height:50em;
     overflow:auto;
+    background-color:#dddddd;
 }
 article p {
     margin-bottom: 3em;
@@ -26,13 +27,14 @@ a.glyphicon-map-marker {
     height:64px;
     width:64px;
     display:block;
+    margin: 5px 0 0 0;
 }
 .side-article:after {
     content:'';
     height:1px;
     display:block;
     background-image:linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(0,0,0,0.75) 50%,rgba(255,255,255,0) 100%);
-    margin:5px auto 15px auto;
+    margin:5px auto 10px auto;
 }
 .side-article label {
     display:block;
