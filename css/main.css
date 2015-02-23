@@ -1,8 +1,3 @@
-sidebar {
-    max-height:50em;
-    overflow:auto;
-    background-color:#dddddd;
-}
 article p {
     margin-bottom: 3em;
     line-height:1.5em;
@@ -12,7 +7,23 @@ article p:first-letter {
     font-weight:bold;
     font-size:2em;
 }
-a.glyphicon-map-marker {
+aside.sidebar>.sidebar-content {
+    max-height:50em;
+    overflow:auto;
+    background-color:#dddddd;
+}
+aside.sidebar:before{
+	content:'Activity';
+	width:100%;
+	text-align:center;
+	font-family:Arial, sans-serif;
+	font-size:3em;
+	display:block;
+	background-color:rgba(64,64,64,0.5);
+	color:#FFFFFF;
+	border-radius:0.5em 0.5em 0 0;
+}
+.address a {
     text-decoration:none;
 }
 .row {
@@ -40,4 +51,10 @@ a.glyphicon-map-marker {
     display:block;
     font-family:Helvetica serif;
     color:#777777;
+}
+.btn-divider {
+	border-right-style:solid;
+	border-right-width:1px;
+	border-color:#999999;
+	margin-right:3px;
 }
