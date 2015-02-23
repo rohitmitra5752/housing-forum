@@ -1,0 +1,41 @@
+sidebar {
+    max-height:50em;
+    overflow:auto;
+}
+article p {
+    margin-bottom: 3em;
+    line-height:1.5em;
+    font-family: "Times New Roman", serif;
+}
+article p:first-letter {
+    font-weight:bold;
+    font-size:2em;
+}
+a.glyphicon-map-marker {
+    text-decoration:none;
+}
+.row {
+    margin-bottom:20px;
+}
+.footer {
+    margin-top:5em;;
+    color: #efefef;
+    background-color: #333;
+}
+.side-article img {
+    height:64px;
+    width:64px;
+    display:block;
+}
+.side-article:after {
+    content:'';
+    height:1px;
+    display:block;
+    background-image:linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(0,0,0,0.75) 50%,rgba(255,255,255,0) 100%);
+    margin:5px auto 15px auto;
+}
+.side-article label {
+    display:block;
+    font-family:Helvetica serif;
+    color:#777777;
+}
